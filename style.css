@@ -1,5 +1,31 @@
 
 h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 28px;
     font-weight: bold;
+}
+
+a {
+    color: darkblue;
+}
+
+h3 {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.info {
+    background-color: rgb(235, 230, 230);
+    font-style: italic;
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
+
+img[src*="images/beef-barbacoa.webp"] {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
